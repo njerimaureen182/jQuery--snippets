@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#flip").click(function(){
+			$("#panel").slideUp("slow")
+		})
+	})
+</script>
+<style>
+	#panel,#flip{
+		padding: 10px;
+		text-align: center;
+		background-color: aqua;
+		border: solid 1px grey;
+	}
+	#panel{
+		padding: 30px;
+	}
+</style>
+</head>
+
+<body>
+
+<div id="flip">Good Morning!</div>
+<div id="panel">Have a good day:-)</div>
+
+</body>
+</html>

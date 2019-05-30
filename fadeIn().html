@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("#div1").fadeIn()
+			$("#div2").fadeIn("slow")
+			$("#div3").fadeIn(3000)
+		})
+	})
+</script>
+<body>
+	<p>A demonstration of the fadeIn() effect using different parameters.</p>
+	<button>Click to fade in boxes</button><br><br><br>
+	<div id="div1" style="height: 80px;width: 100px;display: none;background-color: green;"></div><br>
+	<div id="div2" style="height: 80px;width: 100px;display: none;background-color: yellow"></div><br>
+	<div id="div3" style="height: 80px;width: 100px;display: none;background-color: orange"></div><br>
+	
+</body>
+
+</html>

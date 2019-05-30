@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#flip").click(function(){
+			$("#panel").slideToggle(3000)
+		})
+	})
+</script>
+<style>
+	#flip,#panel{
+		padding: 20px;
+		text-align: center;
+		background-color: orange;
+		border: solid 1px green;
+	}
+	#panel{
+		padding: 40px;
+		display: none;
+	}
+</style>
+</head>
+
+<body>
+	<div id="flip">Click to slide panel up or down!</div>
+	<div id="panel">You are amazing :)</div>
+
+
+</body>
+</html>

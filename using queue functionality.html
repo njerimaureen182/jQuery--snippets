@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("button").click(function(){
+			var div=$("div");
+			div.animate({height:'300px',opacity:'0.2'},"slow");
+			div.animate({width:'200px',opacity:'0.7' },"slow");
+			div.animate({height:'400px',opacity:'0.4'},"slow");
+			div.animate({width:'60px',opacity:'0.9'},"slow");
+		});
+	});
+	
+</script>
+</head>
+
+<body>
+	<button>Click here to animate</button>
+	<br><br>
+	<div style="background-color: indigo;height: 40px;width: 40px;position: relative;"></div>
+	
+</body>
+</html>
