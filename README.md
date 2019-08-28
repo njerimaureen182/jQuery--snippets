@@ -4,5 +4,5 @@
 
 # What I learnt/Keep learning
 1. jQuery syntax (Document Ready Event)
-2. jQuery effects (Hide/Show, Fade, Toggle, Slide, Animate)
-3. jQuery HTML
+2. jQuery effects, event handlers and style methods.
+3. Adding jQuery to web pages and traversing the DOM.
